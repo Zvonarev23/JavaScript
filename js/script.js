@@ -1,24 +1,13 @@
-// Урок 1
-
-let title = "JavaScript!";
-let screens = 1920;
-let screenPrice = 20000;
-let rollback = "Html";
-let fullPrice = 25000;
-let adaptive = "Fuck off";
-
-console.log(title);
-
 // Урок 2
 
 // Задание 1
 
-title = "JavaScript - это просто!";
-screens = "Простые, Сложные, Интерактивные"
-screenPrice = 10000;
-rollback = 20;
-fullPrice = 90000;
-adaptive = true;
+let title = "JavaScript - это просто!";
+let screens = "Простые, Сложные, Интерактивные"
+let screenPrice = 10000;
+let rollback = 20;
+let fullPrice = 90000;
+let adaptive = true;
 
 // Задание 2
 
