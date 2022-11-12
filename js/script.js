@@ -18,9 +18,9 @@ let adaptive = confirm("Нужен ли адаптив на сайте?");
 let getRollbackMessage = function(discount) {
   if (discount > 30000) {
       return "Даем скидку в 10%"
-  } else if (15000 <= discount && discount <= 30000) {
+  } else if (discount >= 15000 && discount <= 30000) {
         return "Даем скидку в 5%"
-  } else if (0 <= discount && discount < 15000) {
+  } else if (discount >= 0  && discount < 15000) {
         return "Скидка не предусмотрена"
   } else {
         return "Что-то пошло не так"
@@ -88,3 +88,6 @@ showTypeOf(getTitle())
 
 console.log(getRollbackMessage(fullPrice));
 console.log(servicePercentPrice2);
+
+
+
