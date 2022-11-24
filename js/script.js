@@ -88,6 +88,3 @@ showTypeOf(getTitle())
 
 console.log(getRollbackMessage(fullPrice));
 console.log(servicePercentPrice2);
-
-
-
