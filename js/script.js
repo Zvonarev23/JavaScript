@@ -2,15 +2,15 @@
 
 //  Урок 9 
 
-let title = document.getElementsByTagName('h1')[0].textContent;
-let buttonСalculate = document.getElementsByClassName('handler_btn')[0];
-let buttonReset = document.getElementsByClassName('handler_btn')[1];
-let buttonAddScreens = document.querySelector('.screen-btn');
-let otherItems = document.querySelectorAll('.other-items');
-let inputRange = document.querySelector('.rollback > .main-controls__range > [type="range"]')
-let spanRange = document.querySelector('.rollback > .main-controls__range > .range-value')
-let totalInputs = document.getElementsByClassName('total-input');
-let blockScreen = document.querySelectorAll('.screen');
+const title = document.getElementsByTagName('h1')[0].textContent;
+const buttonСalculate = document.getElementsByClassName('handler_btn')[0];
+const buttonReset = document.getElementsByClassName('handler_btn')[1];
+const buttonAddScreens = document.querySelector('.screen-btn');
+const otherItems = document.querySelectorAll('.other-items');
+const inputRange = document.querySelector('.rollback > .main-controls__range > [type="range"]')
+const spanRange = document.querySelector('.rollback > .main-controls__range > .range-value')
+const totalInputs = document.getElementsByClassName('total-input');
+const blockScreen = document.querySelectorAll('.screen');
 let percentItems = [];
 let numberItems = [];
 
