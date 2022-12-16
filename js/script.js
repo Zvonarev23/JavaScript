@@ -1,6 +1,30 @@
 'use strict';
 
-//  Урок 8 
+//  Урок 9 
+
+const title = document.getElementsByTagName('h1')[0].textContent;
+const buttonСalculate = document.getElementsByClassName('handler_btn')[0];
+const buttonReset = document.getElementsByClassName('handler_btn')[1];
+const buttonAddScreens = document.querySelector('.screen-btn');
+const otherItems = document.querySelectorAll('.other-items');
+const inputRange = document.querySelector('.rollback > .main-controls__range > [type="range"]')
+const spanRange = document.querySelector('.rollback > .main-controls__range > .range-value')
+const totalInputs = document.getElementsByClassName('total-input');
+const blockScreen = document.querySelectorAll('.screen');
+let percentItems = [];
+let numberItems = [];
+
+otherItems.forEach(function(item) {
+  if (item.classList.contains('percent') === true) {
+    percentItems.push(item)
+  } else {
+    numberItems.push(item)
+  }
+})
+
+for (let input of totalInputs) {
+  console.log(input)
+}
 
 let appData = {
     
